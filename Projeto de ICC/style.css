@@ -18,7 +18,7 @@ nav{
         filter: brightness(1.6);
 }
 .nav-link{
-        background-color: blueviolet !important;
+        background-color: hwb(289 23% 29%) !important;
         color: #111 !important;
         font-family: 'Courier New', Courier, monospace;
         transition: transform 0.25s cubic-bezier(.5,.2,.1,1.2);
@@ -38,15 +38,21 @@ h3{
     justify-content: space-around;
 }
 .card{
+    width: 600px;
+    height: 600px;
+    border-radius: 1%;
     background-color: seagreen;
     flex-basis: 250px;
     margin: 10px;
+    border-radius: 5%;
+    overflow: hidden;
+    
 }
 .card img{
-    border-radius: 5%;
+    overflow: hidden;
 }
 .btn.btn-roxo{
-    background-color:blueviolet !important;
+    background-color:hwb(289 23% 29%) !important;
     color: #111;
     transition: transform 0.25s cubic-bezier(.5,.2,.1,1.2);
 }
